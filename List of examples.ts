@@ -22,4 +22,5 @@ squareOf('z') // evaluates to NaN
 console.log(squareOf(2)); //print a
 console.log(squareOf('z')); //print b
 
+//Question : Why is there a read squiggly line under n in squareOf (n)
 //----------------------------------------------------------
