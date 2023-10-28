@@ -7,6 +7,9 @@ apple: a,
 banana: b
 }
 let d = c.apple * 4
+console.log(a); //print a
+console.log(b); //print b
+console.log(c); //print c
 
 //Ex 2 - more checking exercise
 function squareOf(n) {
