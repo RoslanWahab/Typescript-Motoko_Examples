@@ -1,5 +1,5 @@
 
-//checking exercise
+//Ex 1 - checking exercise
 let a = 1 + 2
 let b = a + 3
 let c = {
@@ -8,7 +8,7 @@ banana: b
 }
 let d = c.apple * 4
 
-//more checking exercise
+//Ex 2 - more checking exercise
 function squareOf(n) {
 return n * n
 }
