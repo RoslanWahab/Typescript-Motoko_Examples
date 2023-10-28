@@ -17,3 +17,5 @@ return n * n
 }
 squareOf(2) // evaluates to 4
 squareOf('z') // evaluates to NaN
+console.log(squareOf(2)); //print a
+console.log(b); //print b
