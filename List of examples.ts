@@ -21,4 +21,5 @@ squareOf('z') // evaluates to NaN
 
 console.log(squareOf(2)); //print a
 console.log(squareOf('z')); //print b
+
 //----------------------------------------------------------
