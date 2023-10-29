@@ -29,8 +29,8 @@ console.log(squareOf('z')); //print b
 //Ex 3 - more checking exercise
 
 // Save the file as index.ts
-var greet: string = "Greetings";
-var ICP: string = "to all ICP Blockchainers";
-console.log(greet + " from " + ICP);
+var greet: string = "Greetings ";
+var icp: string = "to all ICP Blockchainers";
+console.log(greet  + icp);
 
 //----------------------------------------------------------
