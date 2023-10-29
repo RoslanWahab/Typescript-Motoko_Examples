@@ -42,3 +42,13 @@ console.log(variable1); // No error
  
 variable1 = "d";
 console.log(variable1); // Error
+
+//----------------------------------------------------------
+//Ex 5 - more string exercise
+let variable1: "a" | "b" | "c";
+ 
+variable1 = "a";
+console.log(variable1); // No error
+ 
+variable1 = "A";
+console.log(variable1); // Error
