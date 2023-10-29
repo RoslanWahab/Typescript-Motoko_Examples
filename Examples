@@ -26,7 +26,7 @@ console.log(squareOf('z')); //print b
 
 
 //----------------------------------------------------------
-//Ex 3 - more checking exercise
+//Ex 3 - string exercise
 
 // Save the file as index.ts
 var greet: string = "Greetings ";
@@ -34,3 +34,11 @@ var icp: string = "to all ICP Blockchainers";
 console.log(greet  + icp);
 
 //----------------------------------------------------------
+//Ex 4 - more string exercise
+let variable1: "a" | "b" | "c";
+ 
+variable1 = "a";
+console.log(variable1); // No error
+ 
+variable1 = "d";
+console.log(variable1); // Error
