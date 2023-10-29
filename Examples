@@ -1,4 +1,4 @@
-
+//----------------------------------------------------------
 //Ex 1 - checking exercise
 let a = 1 + 2
 let b = a + 3
@@ -32,3 +32,5 @@ console.log(squareOf('z')); //print b
 var greet: string = "Greetings";
 var ICP: string = "to all ICP Blockchainers";
 console.log(greet + " from " + ICP);
+
+//----------------------------------------------------------
