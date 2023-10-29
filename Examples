@@ -1,6 +1,7 @@
 //----------------------------------------------------------
+//Use this webiste to test run --> https://www.typescriptlang.org/tools
 //Ex 1 - checking exercise
-let a = 1 + 2
+let a = 1 + 2  //Try to add "2" to number 2 and see what happens
 let b = a + 3
 let c = {
 apple: a,
