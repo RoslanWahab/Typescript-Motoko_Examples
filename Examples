@@ -45,7 +45,7 @@ variable1 = "d";
 console.log(variable1); // Error
 
 //----------------------------------------------------------
-//Ex 5 - more string exercise
+//Ex 4 - more string exercise
 let variable1: "a" | "b" | "c";
  
 variable1 = "a";
@@ -53,3 +53,11 @@ console.log(variable1); // No error
  
 variable1 = "A";
 console.log(variable1); // Error
+
+
+//Motoko link
+https://m7sm4-2iaaa-aaaab-qabra-cai.ic0.app/?tag=1157678399
+
+
+ 
+
