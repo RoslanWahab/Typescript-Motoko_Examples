@@ -37,6 +37,7 @@ Take a manifesto as a parameter of type Text
 Set the manifesto variable to the value of the parameter
 Return nothing
 setManifesto : shared (manifesto : Text) -> async ();
+
 Task 6: Define a list of goals for your DAO
 Implement a mutable variable goals of type Buffer<Text> that represents the goals of your DAO.
 
