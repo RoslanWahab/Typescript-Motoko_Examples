@@ -26,9 +26,15 @@ actor Scroll {
         return message;
     };
 
-    // Task #4:
+    // TASK #4:
     // Define an update function 'setMessage'.
     // This function should update the 'message' variable with the value passed as its argument.
+
+    // Define an update function in Motoko
+    // Update functions take longer (~2s) due to consensus requirements
+    public func changeMessage(newMessage: Text): async () {
+        message := newMessage;
+    };
 
     // Task #5:
     // Define a query function 'getMessage'
