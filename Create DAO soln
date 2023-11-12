@@ -53,13 +53,23 @@ actor createDAO {
 //Task 6: Define a list of goals for your DAO
 //Implement a mutable variable goals of type Buffer<Text> that represents the goals of your DAO.
 
-let buffer = Buffer.Buffer<Text>(2); // Creates a new Buffer with goals
 
-buffer.add("Need volunteers"); // add string text to buffer
-buffer.add("Need finance");
 
-Buffer.toArray(buffer) // => ["Need volunteers", "Need finance"]
+let goals : Buffer.Buffer<Text> = Buffer.Buffer<Text>(0)  ; // Creates a new Buffer with goals
 
+public func addGoal(goal : Text) : async () {
+//add elements inside buffer
+  goals.add(goal);
+  
+};
+
+public query func showGoals() : async [Text] {
+
+return Buffer.toArray(goals) ;
+//transform buffer into array
+
+}
+ 
 
 
     // Task #7:
