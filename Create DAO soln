@@ -1,0 +1,36 @@
+actor createDAO {
+
+    // Task #1:
+    // Create an immutable variable 'name' of type 'Text'.
+    // Initialize it with your name.
+
+
+     let daoName: Text = "AL FALAH WEALTH";
+
+    // Task #2:
+    // Create a mutable variable 'message' of type 'Text'.
+    // Initialize it with the value "Hello World".
+
+    var manifesto: Text = "1) To help the poor so that they can become independent with the help of others 2) To help them get a job or run a small business 3) To educate them with financial and business management knowledge";
+
+    // Task #3:
+    // Define a query function 'getName'.
+    // This function should return the value of the 'name' variable.
+
+  
+
+    public query func getDaoName(): async Text {
+        return daoName;
+    };
+
+
+    // Task #4:
+    // Define an update function 'setMessage'.
+    // This function should update the 'message' variable with the value passed as its argument.
+
+    //Return the manifesto of your DAO
+
+
+    public query func getManifesto(): async Text {
+        return manifesto;
+    };
