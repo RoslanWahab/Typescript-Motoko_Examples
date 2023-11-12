@@ -1,0 +1,76 @@
+import Buffer "mo:base/Buffer";
+
+actor createDAO {
+
+    // Task #1:
+    // Create an immutable variable 'name' of type 'Text'.
+    // Initialize it with your dao name.
+
+
+     var daoName: Text = "AL FALAH WEALTH";
+
+     public func getName(getName: Text): async () {
+        daoName :=  getName;
+    };
+
+    // Task #2:
+    // Create a mutable variable 'message' of type 'Text'.
+    // Initialize it with the value "Hello World".
+
+    var manifesto: Text = "1) To help the poor so that they can become independent with the help of others 2) To help them get a job or run a small business 3) To educate them with financial and business management knowledge. ";
+
+    // Task #3:
+    // Define a query function 'getName'.
+    // This function should return the value of the 'name' variable.
+
+  
+
+    public query func getName(): async Text {
+        return daoName;
+    };
+
+
+    // Task #4:
+    // Define an update function 'setMessage'.
+    // This function should update the 'message' variable with the value passed as its argument.
+
+    //Return the manifesto of your DAO
+
+
+    public query func getManifesto(): async Text {
+        return manifesto;
+    };
+
+    // Task #5:
+    // Define a query function 'getMessage'
+    // This function should return the value of the 'message' variable.
+
+    public func addNewManifesto(addNewManifesto: Text): async () {
+        manifesto :=  manifesto # addNewManifesto;
+    };
+
+
+
+    // Task #6:
+    // Deploy your application to the Internet Computer.
+
+//Task 6: Define a list of goals for your DAO
+//Implement a mutable variable goals of type Buffer<Text> that represents the goals of your DAO.
+
+
+
+let goals : Buffer.Buffer<Text> = Buffer.Buffer<Text>(0)  ; // Creates a new Buffer with goals
+
+public func addGoal(goal : Text) : async () {
+//add elements inside buffer
+  goals.add(goal);
+  
+};
+
+public query func getGoals() : async [Text] {
+
+return Buffer.toArray(goals) ;
+//transform buffer into array
+
+};
+};
