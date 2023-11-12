@@ -1,12 +1,18 @@
-//From Seb
+//From Seb but edited to give my dream DAO
 
 Your DAO will be the vessel to help you achieve your dreams.
 
 Task 1: Define a name for you DAO
 Implement an immutable variable name of type Text that represents the name of your DAO.
+I want it to be called AL FALAH WEALTH
 
 Task 2: Define a manifesto for you DAO
 Implement a mutable variable manifesto of type Text that represents the manifesto of your DAO.
+The manisfesto for our DAO is as follows:
+
+1) To help the poor so that they can become independent with the help of others
+2) To help them get a job or run a small business
+3) To educate them with financial and business management knowledge
 
 A manifesto is a public declaration of the intentions, motives, or views of an individual or group. It is often political in nature, but may present an individual's life stance. Source - Wikipedia
 
