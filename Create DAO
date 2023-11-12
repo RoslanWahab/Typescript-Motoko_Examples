@@ -1,0 +1,57 @@
+//From Seb
+
+Your DAO will be the vessel to help you achieve your dreams.
+
+Task 1: Define a name for you DAO
+Implement an immutable variable name of type Text that represents the name of your DAO.
+
+Task 2: Define a manifesto for you DAO
+Implement a mutable variable manifesto of type Text that represents the manifesto of your DAO.
+
+A manifesto is a public declaration of the intentions, motives, or views of an individual or group. It is often political in nature, but may present an individual's life stance. Source - Wikipedia
+
+Task 3: Implement the getName query function
+The getName function should:
+
+Takes no parameters
+Return the name of your DAO
+getName : shared query () -> async Text;
+Task 4: Implement the getManifesto query function
+The getManifesto function should:
+
+Takes no parameters
+Return the manifesto of your DAO
+getManifesto : shared query () -> async Text;
+Task 5: Implement the setManifesto update function
+The setManifesto function should:
+
+Take a manifesto as a parameter of type Text
+Set the manifesto variable to the value of the parameter
+Return nothing
+setManifesto : shared (manifesto : Text) -> async ();
+Task 6: Define a list of goals for your DAO
+Implement a mutable variable goals of type Buffer<Text> that represents the goals of your DAO.
+
+Task 7: Implement the addGoal function
+The addGoal function should:
+
+Take a goal as a parameter of type Text
+Add a new goal to the goals buffer
+Return nothing
+addGoal : shared (goal : Text) -> async ();
+Task 8: Implement the getGoals query function
+The getGoals function should:
+
+Take no parameters
+Return all the goals of your DAO in an Array
+getGoals : shared query () -> async [Text];
+📺 Interface
+At the end of this level, your canister should implement the following interface:
+
+actor {
+    getName : shared query () -> async Text;
+    getManifesto : shared query () -> async Text;
+    setManifesto : shared (manifesto : Text) -> async ();
+    addGoal : shared (goal : Text) -> async ();
+    getGoals : shared query () -> async [Text];
+}
