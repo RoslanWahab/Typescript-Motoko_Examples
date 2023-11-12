@@ -2,16 +2,19 @@ actor Scroll {
 
 //These codes are for creating your own DAO    
 
-// TASK #1:
-// Define a name for you DAO. Initialize it with your name if you wish
-// Implement an immutable variable 'name' of type Text that represents the name of your DAO.
+    // TASK #1:
+    // Define a name for you DAO. Initialize it with your name if you wish
+    // Implement an immutable variable 'name' of type Text that represents the name of your DAO.
 
- // Immutable variable definition in Motoko using 'let'
+    // Immutable variable definition in Motoko using 'let'
     let website: Text = "https://motokobootcamp.com";
 
-    // Task #2:
+    // TASK #2:
     // Create a mutable variable 'message' of type 'Text'.
     // Initialize it with the value "Hello World".
+
+    // Mutable variable definition in Motoko using 'var'
+    var message: Text = "Join the Web3 revolution!";
 
     // Task #3:
     // Define a query function 'getName'.
