@@ -22,12 +22,14 @@ The getName function should:
 Takes no parameters
 Return the name of your DAO
 getName : shared query () -> async Text;
+
 Task 4: Implement the getManifesto query function
 The getManifesto function should:
 
 Takes no parameters
 Return the manifesto of your DAO
 getManifesto : shared query () -> async Text;
+
 Task 5: Implement the setManifesto update function
 The setManifesto function should:
 
