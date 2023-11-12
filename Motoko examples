@@ -16,9 +16,15 @@ actor Scroll {
     // Mutable variable definition in Motoko using 'var'
     var message: Text = "Join the Web3 revolution!";
 
-    // Task #3:
+    // TASK #3:
     // Define a query function 'getName'.
     // This function should return the value of the 'name' variable.
+
+    // Define a query function in Motoko
+    // Query functions are fast (~200ms) since they bypass consensus and don't persist changes
+    public query func seeMessage(): async Text {
+        return message;
+    };
 
     // Task #4:
     // Define an update function 'setMessage'.
