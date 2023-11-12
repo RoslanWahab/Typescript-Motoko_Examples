@@ -14,7 +14,7 @@ The manisfesto for our DAO is as follows:
 2) To help them get a job or run a small business
 3) To educate them with financial and business management knowledge
 
-A manifesto is a public declaration of the intentions, motives, or views of an individual or group. It is often political in nature, but may present an individual's life stance. Source - Wikipedia
+Note: A manifesto is a public declaration of the intentions, motives, or views of an individual or group. It is often political in nature, but may present an individual's life stance. Source - Wikipedia
 
 Task 3: Implement the getName query function
 The getName function should:
