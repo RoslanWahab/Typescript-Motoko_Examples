@@ -1,8 +1,12 @@
 actor Scroll {
 
-    // Task #1:
-    // Create an immutable variable 'name' of type 'Text'.
-    // Initialize it with your name.
+//These codes are for creating your own DAO    
+
+// Task #1:
+// Define a name for you DAO. Initialize it with your name if you wish
+// Implement an immutable variable 'name' of type Text that represents the name of your DAO.
+
+   
 
     // Task #2:
     // Create a mutable variable 'message' of type 'Text'.
