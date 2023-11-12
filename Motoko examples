@@ -1,0 +1,5 @@
+Task 3: Implement the getName query function
+The getName function should:
+
+Takes no parameters
+Return the name of your DAO
