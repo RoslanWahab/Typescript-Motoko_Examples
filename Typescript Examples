@@ -54,28 +54,24 @@ var greet: string = "Greetings ";
 var icp: string = "to all ICP Blockchainers";
 console.log(greet  + icp);
 
-//----------------------------------------------------------
-//Ex 4 - more string exercise
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Ex 4 - more string exercise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 let variable1: "a" | "b" | "c";
  
 variable1 = "a";
 console.log(variable1); // No error
  
 variable1 = "d";
-console.log(variable1); // Error
-
-//----------------------------------------------------------
-//Ex 4 - more string exercise
-let variable1: "a" | "b" | "c";
- 
-variable1 = "a";
-console.log(variable1); // No error
- 
-variable1 = "A";
-console.log(variable1); // Error
+console.log(variable1); // Why is this an error? How to fix it?
 
 
-//Motoko link
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ These are Motoko links
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 https://m7sm4-2iaaa-aaaab-qabra-cai.ic0.app/?tag=1157678399
 
 https://tutorials.icdevs.org/tutorials/motoko_playground/
