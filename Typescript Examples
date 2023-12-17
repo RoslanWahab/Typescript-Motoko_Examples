@@ -17,16 +17,17 @@ console.log(a); //print a
 console.log(b); //print b
 console.log(c); //print c
 
-//Before proceeding to next exercise, try to add "2" to number 2 and see what happens
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Ex 1b - checking exercise
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-//add the line below. Notice the error.
+//add the line below. 
 
 let d = c.apple * 4
 console.log(d); //print d
+
+//Before proceeding to next exercise, try to add "2" to number 2 and see what happens. Notice the error.
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Ex 2 - more checking exercise
