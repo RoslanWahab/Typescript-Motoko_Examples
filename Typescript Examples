@@ -6,7 +6,7 @@
   Ex 1a - checking exercise
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-let a = 1 + 2  //Try to add "2" to number 2 and see what happens
+let a = 1 + 2  
 let b = a + 3
 let c = {
 apple: a,
@@ -16,6 +16,8 @@ banana: b
 console.log(a); //print a
 console.log(b); //print b
 console.log(c); //print c
+
+//Before proceeding to next exercise, try to add "2" to number 2 and see what happens
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Ex 1b - checking exercise
