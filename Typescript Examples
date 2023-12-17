@@ -2,8 +2,9 @@
 //Use this webiste to test run --> https://www.typescriptlang.org/tools
 //*********************************************************************
 
-//Ex 1 - checking exercise
-//*********************************************************************
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Ex 1a - checking exercise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 let a = 1 + 2  //Try to add "2" to number 2 and see what happens
 let b = a + 3
@@ -11,13 +12,24 @@ let c = {
 apple: a,
 banana: b
 }
-let d = c.apple * 4
+
 console.log(a); //print a
 console.log(b); //print b
 console.log(c); //print c
 
-//----------------------------------------------------------
-//Ex 2 - more checking exercise
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Ex 1b - checking exercise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+//add the line below. Notice the error.
+
+let d = c.apple * 4
+console.log(d); //print d
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Ex 2 - more checking exercise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 function squareOf(n) {
 return n * n
 }
