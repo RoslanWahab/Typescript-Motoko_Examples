@@ -45,8 +45,9 @@ console.log(squareOf('z')); //print b
 //Question : Why is there a read squiggly line under n in squareOf (n)
 
 
-//----------------------------------------------------------
-//Ex 3 - string exercise
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Ex 3 - string exercise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 // Save the file as index.ts
 var greet: string = "Greetings ";
