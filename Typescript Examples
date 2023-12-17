@@ -39,8 +39,8 @@ return n * n
 squareOf(2) // evaluates to 4
 squareOf('z') // evaluates to NaN
 
-console.log(squareOf(2)); //print a
-console.log(squareOf('z')); //print b
+console.log(squareOf(2)); //shouls show a number
+console.log(squareOf('z')); //should show a Nan
 
 //Question : Why is there a read squiggly line under n in squareOf (n)
 
